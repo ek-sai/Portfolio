@@ -138,17 +138,6 @@ I'm a results-driven **AI/ML Software Engineer** passionate about transforming d
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ek-sai&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ek-sai&layout=compact&theme=radical)
-
-</div>
-
----
-
 ## 🌟 What Sets Me Apart
 
 - **🎯 Production Focus**: Experience deploying ML models that handle real-world scale and complexity
