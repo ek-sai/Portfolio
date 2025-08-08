@@ -6,7 +6,7 @@ Welcome to my portfolio repository! This repo showcases selected projects, exper
 
 ## 🧾 About Me
 
-I’m an AI Engineer with experience building LLM pipelines, fine-tuning models, and deploying intelligent systems using tools like OpenAI, LangChain, and FastAPI. My interests span:
+AI/ML Software Engineer with 3+ years of experience building scalable ML systems using MLflow, SageMaker, and DVC. Proven track record in deploying end-to-end ML pipelines, integrating LLMs via OpenAI API, and implementing explainable AI with SHAP/LIME. Skilled in MLOps, model optimization, and workflow orchestration with Airflow and AWS. My interests span:
 
 - 🚀 AI/ML: LLMs, fine-tuning, embeddings, agentic workflows
 - 🏗️ Backend: Python, FastAPI, Kafka, REST APIs
