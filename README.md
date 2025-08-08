@@ -1,4 +1,4 @@
-# 🧠 Eswar Sai Korrapati's Portfolio
+# Eswar Sai Korrapati's Portfolio
 
 Welcome to my portfolio repository! This repo showcases selected projects, experiments, and contributions across AI, data engineering, and full-stack development. It's a snapshot of my technical journey and areas of expertise.
 
