@@ -2,7 +2,7 @@
 
 <div align="center">
   
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=vercel)](https://your-portfolio-url.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=vercel)](https://eswarsaiportfolio.org/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/eswarsaikorrapati/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/ek-sai)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:eksai0726@gmail.com)
@@ -124,9 +124,9 @@ I'm a results-driven **AI/ML Software Engineer** passionate about transforming d
 *May 2020 – Jul 2022*
 
 **Key Contributions:**
-- Engineered RESTful APIs with Django/Flask improving system throughput
+- Engineered RESTful APIs with Django/Flask, improving system throughput
 - Developed automated ML workflows with Apache Airflow
-- Built centralized Feature Store for standardized model experimentation
+- Built a  centralized Feature Store for standardized model experimentation
 - Leveraged AutoML reducing manual tuning time by **40%**
 
 ---
@@ -154,7 +154,7 @@ I'm always excited to discuss **AI/ML opportunities**, **technical challenges**,
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-brightgreen?style=for-the-badge)](https://your-portfolio-url.com)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-brightgreen?style=for-the-badge)](https://eswarsaiportfolio.org/)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Let's_Connect-blue?style=for-the-badge)](https://www.linkedin.com/in/eswarsaikorrapati/)
 [![Email](https://img.shields.io/badge/📧_Email-Get_In_Touch-red?style=for-the-badge)](mailto:eksai0726@gmail.com)
 [![Phone](https://img.shields.io/badge/📱_Phone-551--344--5356-green?style=for-the-badge)]()
