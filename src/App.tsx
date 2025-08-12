@@ -50,6 +50,7 @@ const Portfolio = () => {
   const navItems = [
     { id: 'home', label: 'Home', icon: '🏠' },
     { id: 'about', label: 'About', icon: '👨‍💻' },
+    { id: 'skills', label: 'Skills', icon: '⚡' },
     { id: 'experience', label: 'Experience', icon: <img src="/exp.png" alt="Experience" style={{ width: 16, height: 16, objectFit: 'contain' }} /> },
     { id: 'projects', label: 'Projects', icon: '📊' },
     { id: 'contact', label: 'Contact', icon: '📧' }
@@ -655,6 +656,112 @@ const Portfolio = () => {
       </div>
     </section>
   );
+
+  // Skills Section
+  const SkillsSection = () => {
+    const skills = [
+      { name: 'Python', icon: <PythonIcon /> },
+      { name: 'TensorFlow', icon: <TensorFlowIcon /> },
+      { name: 'PyTorch', icon: <PyTorchIcon /> },
+      { name: 'HuggingFace', icon: <HuggingFaceIcon /> },
+      { name: 'LangChain', icon: <LangChainIcon /> },
+      { name: 'LangGraph', icon: <LangGraphIcon /> },
+      { name: 'AWS', icon: <AWSIcon /> },
+      { name: 'Docker', icon: <DockerIcon /> },
+      { name: 'MLOps', icon: <MLOpsIcon /> },
+    ];
+
+    return (
+      <section
+        id="skills"
+        style={{
+          padding: '80px 32px',
+          background: colors.white,
+          minHeight: '80vh',
+        }}
+      >
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <div style={{
+            textAlign: 'center',
+            marginBottom: '60px',
+          }}>
+            <h2 style={{
+              fontSize: '3rem',
+              fontWeight: '800',
+              color: colors.dark,
+              marginBottom: '24px',
+            }}>
+              Technical Skills
+            </h2>
+            <div style={{
+              width: '80px',
+              height: '4px',
+              background: colors.white,
+              borderRadius: '2px',
+              margin: '0 auto',
+            }} />
+          </div>
+
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))',
+            gap: '24px',
+            maxWidth: '800px',
+            margin: '0 auto',
+          }}>
+            {skills.map((skill) => (
+              <div
+                key={skill.name}
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  padding: '24px 16px',
+                  borderRadius: '16px',
+                  background: colors.white,
+                  boxShadow: '0 8px 20px rgba(0, 0, 0, 0.08)',
+                  transition: 'all 0.3s ease',
+                  cursor: 'pointer',
+                  border: `1px solid ${colors.white}`,
+                }}
+                onMouseEnter={(e) => {
+                  (e.target as HTMLElement).style.transform = 'translateY(-8px)';
+                  (e.target as HTMLElement).style.boxShadow = '0 15px 35px rgba(0, 0, 0, 0.15)';
+                  (e.target as HTMLElement).style.background = colors.dark;
+                  (e.target as HTMLElement).style.color = colors.white;
+                }}
+                onMouseLeave={(e) => {
+                  (e.target as HTMLElement).style.transform = 'translateY(0)';
+                  (e.target as HTMLElement).style.boxShadow = '0 8px 20px rgba(0, 0, 0, 0.08)';
+                  (e.target as HTMLElement).style.background = colors.white;
+                  (e.target as HTMLElement).style.color = colors.dark;
+                }}
+              >
+                <div style={{
+                  width: '48px',
+                  height: '48px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  marginBottom: '12px',
+                }}>
+                  {skill.icon}
+                </div>
+                <span style={{
+                  fontSize: '0.9rem',
+                  fontWeight: '600',
+                  color: colors.dark,
+                  textAlign: 'center',
+                }}>
+                  {skill.name}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    );
+  };
 
   // Experience Section
   const ExperienceSection = () => {
@@ -1526,6 +1633,7 @@ const Portfolio = () => {
       <Navigation />
       <HeroSection />
       <AboutSection />
+      <SkillsSection />
       <ExperienceSection />
       <ProjectsSection />
       <ContactSection />
