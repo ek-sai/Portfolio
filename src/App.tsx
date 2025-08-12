@@ -725,13 +725,24 @@ const Portfolio = () => {
                     width: '80px',
                     height: '80px',
                     borderRadius: '20px',
-                    background: `linear-gradient(135deg, ${colors.primary}, ${colors.secondary})`,
+                    background: colors.white,
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     fontSize: '2rem',
-                    boxShadow: '0 10px 30px rgba(0, 200, 83, 0.2)',
-                  }}>
+                    boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
+                    transition: 'all 0.3s ease',
+                    cursor: 'pointer',
+                  }}
+                  onMouseEnter={(e) => {
+                    (e.target as HTMLElement).style.background = colors.dark;
+                    (e.target as HTMLElement).style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.3)';
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.target as HTMLElement).style.background = colors.white;
+                    (e.target as HTMLElement).style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.1)';
+                  }}
+                  >
                     {exp.icon}
                   </div>
                   
