@@ -2,7 +2,7 @@
 
 <div align="center">
   
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=vercel)](https://your-portfolio-url.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=vercel)](https://eswarsaiportfolio.org/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/eswarsaikorrapati/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/ek-sai)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:eksai0726@gmail.com)
@@ -138,17 +138,6 @@ I'm a results-driven **AI/ML Software Engineer** passionate about transforming d
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ek-sai&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ek-sai&layout=compact&theme=radical)
-
-</div>
-
----
-
 ## 🌟 What Sets Me Apart
 
 - **🎯 Production Focus**: Experience deploying ML models that handle real-world scale and complexity
@@ -165,7 +154,7 @@ I'm always excited to discuss **AI/ML opportunities**, **technical challenges**,
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-brightgreen?style=for-the-badge)](https://your-portfolio-url.com)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-brightgreen?style=for-the-badge)](https://eswarsaiportfolio.org/)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Let's_Connect-blue?style=for-the-badge)](https://www.linkedin.com/in/eswarsaikorrapati/)
 [![Email](https://img.shields.io/badge/📧_Email-Get_In_Touch-red?style=for-the-badge)](mailto:eksai0726@gmail.com)
 [![Phone](https://img.shields.io/badge/📱_Phone-551--344--5356-green?style=for-the-badge)]()
