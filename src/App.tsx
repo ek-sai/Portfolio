@@ -552,9 +552,9 @@ const Portfolio = () => {
     <section
       id="about"
       style={{
-        padding: '120px 32px',
+        padding: '80px 32px',
         background: colors.white,
-        minHeight: '100vh',
+        minHeight: '80vh',
         display: 'flex',
         alignItems: 'center',
       }}
@@ -562,7 +562,7 @@ const Portfolio = () => {
       <div style={{ maxWidth: '1200px', margin: '0 auto', width: '100%' }}>
         <div style={{
           textAlign: 'center',
-          marginBottom: '80px',
+          marginBottom: '60px',
         }}>
           <h2 style={{
             fontSize: '3rem',
@@ -681,15 +681,15 @@ const Portfolio = () => {
       <section
         id="experience"
         style={{
-          padding: '120px 32px',
+          padding: '80px 32px',
           background: colors.white,
-          minHeight: '100vh',
+          minHeight: '80vh',
         }}
       >
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <div style={{
             textAlign: 'center',
-            marginBottom: '80px',
+            marginBottom: '60px',
           }}>
                       <h2 style={{
             fontSize: '3rem',
@@ -711,7 +711,7 @@ const Portfolio = () => {
           <div style={{
             display: 'flex',
             flexDirection: 'column',
-            gap: '40px',
+            gap: '32px',
           }}>
             {experiences.map((exp, index) => (
               <Card key={exp.company} hover={true}>
@@ -862,15 +862,15 @@ const Portfolio = () => {
       <section
         id="projects"
               style={{
-        padding: '120px 32px',
+        padding: '80px 32px',
         background: colors.white,
-        minHeight: '100vh',
+        minHeight: '80vh',
       }}
       >
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <div style={{
             textAlign: 'center',
-            marginBottom: '80px',
+            marginBottom: '60px',
           }}>
                       <h2 style={{
             fontSize: '3rem',
@@ -892,7 +892,7 @@ const Portfolio = () => {
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
-            gap: '40px',
+            gap: '32px',
           }}>
             {projects.map((project, index) => (
               <Card key={project.title} hover={true} style={{ height: 'fit-content' }}>
@@ -1063,15 +1063,15 @@ const Portfolio = () => {
       <section
         id="contact"
         style={{
-          padding: '120px 32px',
+          padding: '80px 32px',
           background: colors.white,
-          minHeight: '100vh',
+          minHeight: '80vh',
         }}
       >
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <div style={{
             textAlign: 'center',
-            marginBottom: '80px',
+            marginBottom: '60px',
           }}>
                       <h2 style={{
             fontSize: '3rem',
@@ -1103,7 +1103,7 @@ const Portfolio = () => {
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-            gap: '40px',
+            gap: '32px',
             alignItems: 'start',
           }}>
             {/* Contact Info */}
