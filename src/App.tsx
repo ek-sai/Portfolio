@@ -727,14 +727,10 @@ const Portfolio = () => {
                 onMouseEnter={(e) => {
                   (e.target as HTMLElement).style.transform = 'translateY(-8px)';
                   (e.target as HTMLElement).style.boxShadow = '0 15px 35px rgba(0, 0, 0, 0.15)';
-                  (e.target as HTMLElement).style.background = colors.dark;
-                  (e.target as HTMLElement).style.color = colors.white;
                 }}
                 onMouseLeave={(e) => {
                   (e.target as HTMLElement).style.transform = 'translateY(0)';
                   (e.target as HTMLElement).style.boxShadow = '0 8px 20px rgba(0, 0, 0, 0.08)';
-                  (e.target as HTMLElement).style.background = colors.white;
-                  (e.target as HTMLElement).style.color = colors.dark;
                 }}
               >
                 <div style={{
