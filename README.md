@@ -1,4 +1,4 @@
-# 🚀 Eswar Sai Korrapati's Portfolio
+# Eswar Sai Korrapati's Portfolio
 
 <div align="center">
   
