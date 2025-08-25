@@ -69,7 +69,7 @@ I'm a results-driven **AI/ML Software Engineer** passionate about transforming d
 ## 🏆 Featured Projects
 
 ### 💼 [AI-Powered Job Automation Platform](https://github.com/ek-sai/Job_Automation)
-> **Intelligent job application automation with AI-driven resume optimization**
+> **Intelligent job application automation with AI-driven resume Matching and Email Optimization**
 
 - **Tech Stack**: Python, Selenium, OpenAI API, BeautifulSoup, Pandas
 - **Features**: Auto job search, resume tailoring, application tracking, interview prep
