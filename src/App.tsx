@@ -933,6 +933,15 @@ const Portfolio = () => {
   const ProjectsSection = () => {
     const projects = [
       {
+        title: 'Job Automation System',
+        description: 'Built an AI-powered automated job application system that scrapes LinkedIn jobs, uses OpenAI for intelligent matching, discovers recruiter emails via Hunter.io, and generates personalized applications. Features PostgreSQL tracking, Telegram notifications, and smart filtering for quality opportunities.',
+        icon: '🎯',
+        tags: ['OpenAI', 'PostgreSQL', 'Docker', 'N8N', 'Telegram Bot', 'Web Scraping'],
+        links: [
+          { label: 'GitHub', url: 'https://github.com/ek-sai/Job_Automation', type: 'code' }
+        ]
+      },
+      {
         title: 'RAG-based PDF Summarizer',
         description: 'Built a PDF summarization tool using LangChain, OpenAI API, and FAISS for retrieval-augmented generation. Deployed using Streamlit with semantic search, chunking, and real-time user interaction capabilities.',
         icon: '📄',
