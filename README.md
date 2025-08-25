@@ -68,6 +68,16 @@ I'm a results-driven **AI/ML Software Engineer** passionate about transforming d
 
 ## 🏆 Featured Projects
 
+### 💼 [AI-Powered Job Automation Platform](https://github.com/ek-sai/Job_Automation)
+> **Intelligent job application automation with AI-driven resume optimization**
+
+- **Tech Stack**: Python, Selenium, OpenAI API, BeautifulSoup, Pandas
+- **Features**: Auto job search, resume tailoring, application tracking, interview prep
+- **Innovation**: AI-powered resume customization based on job requirements
+- **Impact**: Streamlined job application process with intelligent automation
+
+[![GitHub](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ek-sai/Job_Automation)
+
 ### 🔍 [RAG-based PDF Summarizer](https://ragpdfsummarizer-ffas6wmxaty3zgblr39map.streamlit.app/)
 > **Intelligent document processing with retrieval-augmented generation**
 
@@ -77,6 +87,16 @@ I'm a results-driven **AI/ML Software Engineer** passionate about transforming d
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=flat-square&logo=streamlit)](https://ragpdfsummarizer-ffas6wmxaty3zgblr39map.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ek-sai/RAG_PDF_Summarizer)
+
+### 🤝 [Meeting Agent](https://meeting-agents-yapuvkj9basug2qlos2iqg.streamlit.app/)
+> **Multi-agent AI system for intelligent meeting preparation**
+
+- **Tech Stack**: Streamlit, Claude API, Tavily API, Multi-Agent Framework
+- **Features**: Context analysis, industry insights, strategic recommendations
+- **Innovation**: Comprehensive AI-powered meeting preparation assistant
+
+[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=flat-square&logo=streamlit)](https://meeting-agents-yapuvkj9basug2qlos2iqg.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ek-sai/Meeting_Agent)
 
 ### 🧠 [Next Word Prediction with BERT](https://github.com/ek-sai/BERT)
 > **Advanced NLP with transformer architecture**
@@ -95,16 +115,6 @@ I'm a results-driven **AI/ML Software Engineer** passionate about transforming d
 - **Application**: Cross-language text processing and conversion
 
 [![GitHub](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ek-sai/Machine_Transliteration)
-
-### 🤝 [Meeting Agent](https://meeting-agents-yapuvkj9basug2qlos2iqg.streamlit.app/)
-> **Multi-agent AI system for intelligent meeting preparation**
-
-- **Tech Stack**: Streamlit, Claude API, Tavily API, Multi-Agent Framework
-- **Features**: Context analysis, industry insights, strategic recommendations
-- **Innovation**: Comprehensive AI-powered meeting preparation assistant
-
-[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=flat-square&logo=streamlit)](https://meeting-agents-yapuvkj9basug2qlos2iqg.streamlit.app/)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ek-sai/Meeting_Agent)
 
 ---
 
