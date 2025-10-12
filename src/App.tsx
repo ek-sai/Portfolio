@@ -765,7 +765,7 @@ const Portfolio = () => {
       {
         company: 'Comcast',
         title: 'Software Engineer – AI/ML',
-        duration: 'Aug 2024 – Present',
+        duration: 'Aug 2024 – September 2025',
         icon: <img src={comcastLogo} alt="Comcast" style={{ width: 48, height: 48, borderRadius: 12, background: '#fff', objectFit: 'contain', boxShadow: '0 2px 8px rgba(0,0,0,0.08)' }} />, 
         description: 'Developed and deployed production-grade ML models using TensorFlow and PyTorch, improving accuracy by 20%. Built ML workflows with Airflow, MLflow, and DVC, and deployed models on AWS SageMaker and Lambda, reducing costs and deployment time. Implemented SHAP/LIME dashboards for explainability and integrated LLM-powered chat capabilities using the OpenAI API.',
         highlights: ['🎯 20% accuracy improvement', '⚡ Reduced deployment time', '📊 SHAP/LIME dashboards', '🤖 LLM integration']
