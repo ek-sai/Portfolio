@@ -15,7 +15,7 @@
 
 ## 🎯 About Me
 
-I'm a results-driven **AI/ML Software Engineer** passionate about transforming data into intelligent solutions. Currently working at **Comcast** in San Jose, CA, I specialize in:
+I'm a results-driven **AI/ML Software Engineer** passionate about transforming data into intelligent solutions. Currently working at **eSentire** in San Jose, CA, I specialize in:
 
 - 🤖 **Machine Learning**: Building and deploying scalable ML models with TensorFlow, PyTorch
 - 🔄 **MLOps**: End-to-end ML pipelines with MLflow, SageMaker, DVC, and Apache Airflow
