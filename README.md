@@ -120,24 +120,41 @@ I'm a results-driven **AI/ML Software Engineer** passionate about transforming d
 
 ## 💼 Professional Experience
 
-### 🏢 **Software Engineer – AI/ML** | Comcast, San Jose, CA
-*Aug 2024 – Present*
+### 🏢 **Software Engineer – AI** | eSentire, Pleasanton, CA
+*August 2024 – September 2025*
 
 **Key Achievements:**
-- Designed production-grade ML models improving prediction accuracy by **20%**
-- Built reproducible ML workflows with Apache Airflow, MLflow, and DVC
-- Deployed models using AWS SageMaker, reducing costs by **15%** and deployment time by **35%**
-- Implemented explainability dashboards with SHAP/LIME for regulatory compliance
-- Automated hyperparameter tuning achieving **18%** improvement in F1 score
+– Built a supervisor-based agent workflow that generates structured JSON for dynamic security dashboards.
+– Designed JSON outputs with data endpoints, UI components, and layout details for dashboard rendering.
+– Used RAG to pull schema details and UI component metadata for each client.
+– Implemented strict prompt-engineering rules to enforce structure and keep agent outputs stable.
+– Deployed agent workflows on AWS Lambda and monitored performance through CloudWatch.
+– Collaborated with platform teams to improve deployment pipelines using Kubernetes, increasing dashboard reliability and
+system uptime.
+
+### 🏢 **Software Engineer – AI** | Comcast, San Jose, CA
+*August 2024 – September 2025*
+
+**Key Achievements:**
+– Developed agentic AI workflows with LangChain and LangGraph using Claude Sonnet 4 to improve system efficiency and
+automate support tasks.
+– Added persistent state to multi-agent flows, reducing repeated interactions by more than 30%.
+– Built supervisor–worker flows that improved automated response accuracy and reduced escalations.
+– Integrated tools through MCP so agents could run internal lookups and troubleshooting steps, increasing operational
+coverage.
+– Deployed workflows on AWS Lambda, monitored them through CloudWatch, and reduced rollout time and operational cost.
+– Worked with Agile teams to streamline CI/CD cycles and improved deployment efficiency using Kubernetes.
 
 ### 🏢 **Software Engineer** | Dentsu, Hyderabad, India  
-*May 2020 – Jul 2022*
+*May 2020 – July 2022*
 
 **Key Contributions:**
-- Engineered RESTful APIs with Django/Flask improving system throughput
-- Developed automated ML workflows with Apache Airflow
-- Built centralized Feature Store for standardized model experimentation
-- Leveraged AutoML reducing manual tuning time by **40%**
+– Built Flask APIs supporting marketing analytics, improving data processing speed and decision-making.
+– Developed XGBoost models for ad-campaign forecasting with more stable and accurate predictions.
+– Used PySpark for data cleaning, joins, and feature preparation across large datasets.
+– Versioned data and models with DVC to ensure consistency and reproducibility across ML experiments.
+– Built Airflow pipelines for ETL and retraining, reducing manual restarts and improving reliability.
+– Worked with Agile teams to deploy SageMaker endpoints and Docker-based EC2 services, improving scalability and uptime.
 
 ---
 
