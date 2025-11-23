@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import profileImg from '/profile.jpg';
+import esentireLogo from '/esentire.png';
 import comcastLogo from '/comcast.svg';
 import dentsuLogo from '/dentsu.jpeg';
 import { sendEmail } from './emailService';
@@ -10,7 +11,7 @@ const Portfolio = () => {
   const [typedText, setTypedText] = useState('');
   const [scrollY, setScrollY] = useState(0);
 
-  const fullText = "AI/ML Software Engineer";
+  const fullText = "AI/ML Engineer | Agentic AI & MLOps";
 
   // Typing animation effect
   useEffect(() => {
@@ -418,7 +419,7 @@ const Portfolio = () => {
           maxWidth: '600px',
           margin: '0 auto 48px',
         }}>
-          I'm Eswar, a Software Engineer passionate about building efficient and scalable solutions
+          AI/ML engineer focused on production-ready agentic systems, scalable pipelines on AWS (SageMaker, MLflow, Spark), and reliable real-time models.
         </p>
 
         <div style={{
@@ -624,8 +625,7 @@ const Portfolio = () => {
               fontSize: '1.1rem',
               textAlign: 'center',
             }}>
-              With 3+ years of experience in AI/ML, I specialize in developing production-grade systems 
-              using modern technologies and best practices.
+              AI/ML Engineer with more than three years of experience building production-ready machine learning and agentic AI systems. Skilled in designing scalable pipelines on AWS with SageMaker, MLflow, and Spark. Strong background in API design, automation, and MLOps practices that keep workflows reproducible and reliable. Experienced in model explainability with SHAP and LIME and in tuning models for fast, real-time predictions in production.
             </p>
             
             <div style={{ textAlign: 'left', marginTop: '32px' }}>
@@ -763,20 +763,31 @@ const Portfolio = () => {
   const ExperienceSection = () => {
     const experiences = [
       {
+        company: 'eSentire',
+        title: 'Software Engineer – AI',
+        location: 'Pleasanton, CA',
+        duration: 'Oct 2025 – Present',
+        icon: <img src={esentireLogo} alt="eSentire" style={{ width: 48, height: 48, borderRadius: 12, background: '#fff', objectFit: 'contain', boxShadow: '0 2px 8px rgba(0,0,0,0.08)' }} />, 
+        summary: 'Built supervisor-based agent workflows that generate structured JSON for dynamic security dashboards. Designed outputs with data endpoints, UI components, and layouts, enforced strict prompt rules for stability, and used RAG to pull schema and component metadata. Deployed on AWS Lambda with CloudWatch monitoring and partnered with platform teams to harden Kubernetes pipelines.',
+        tags: ['Agentic AI', 'RAG', 'AWS Lambda', 'Kubernetes']
+      },
+      {
         company: 'Comcast',
-        title: 'Software Engineer – AI/ML',
-        duration: 'Aug 2024 – September 2025',
+        title: 'Software Engineer-AI',
+        location: 'San Jose, CA',
+        duration: 'Aug 2024 – Sep 2025',
         icon: <img src={comcastLogo} alt="Comcast" style={{ width: 48, height: 48, borderRadius: 12, background: '#fff', objectFit: 'contain', boxShadow: '0 2px 8px rgba(0,0,0,0.08)' }} />, 
-        description: 'Developed and deployed production-grade ML models using TensorFlow and PyTorch, improving accuracy by 20%. Built ML workflows with Airflow, MLflow, and DVC, and deployed models on AWS SageMaker and Lambda, reducing costs and deployment time. Implemented SHAP/LIME dashboards for explainability and integrated LLM-powered chat capabilities using the OpenAI API.',
-        highlights: ['🎯 20% accuracy improvement', '⚡ Reduced deployment time', '📊 SHAP/LIME dashboards', '🤖 LLM integration']
+        summary: 'Built agentic AI workflows with LangChain/LangGraph using Claude Sonnet 4 to automate support tasks. Added persistent state to multi-agent flows to cut repeated interactions by 30%+, built supervisor–worker patterns to reduce escalations, integrated MCP tools for internal lookups, and shipped to AWS Lambda with CloudWatch and Kubernetes-driven CI/CD.',
+        tags: ['LangChain', 'LangGraph', 'Claude', 'AWS']
       },
       {
         company: 'Dentsu',
         title: 'Software Engineer',
+        location: 'Hyderabad, India',
         duration: 'May 2020 – Jul 2022',
         icon: <img src={dentsuLogo} alt="Dentsu" style={{ width: 48, height: 48, borderRadius: 12, background: '#fff', objectFit: 'contain', boxShadow: '0 2px 8px rgba(0,0,0,0.08)' }} />, 
-        description: 'Engineered RESTful APIs with Django/Flask, developed automated ML workflows using Airflow, and deployed services via Docker and AWS EC2. Created a centralized Feature Store and leveraged AutoML for ad campaign forecasting, improving efficiency and accuracy in production pipelines.',
-        highlights: ['🔗 RESTful APIs', '🔄 Automated workflows', '📦 Docker deployment', '📈 AutoML forecasting']
+        summary: 'Built Flask APIs for marketing analytics to speed data processing and decisions. Developed XGBoost forecasting models, used PySpark for large-scale cleaning and feature prep, versioned data/models with DVC, and built Airflow ETL/retraining pipelines. Deployed SageMaker endpoints and Dockerized EC2 services to improve scalability and uptime.',
+        tags: ['Flask', 'XGBoost', 'PySpark', 'Airflow', 'SageMaker']
       }
     ];
 
@@ -874,6 +885,15 @@ const Portfolio = () => {
                         }}>
                           {exp.company}
                         </div>
+                        {exp.location && (
+                          <div style={{
+                            fontSize: '1rem',
+                            color: colors.gray,
+                            marginTop: '4px',
+                          }}>
+                            {exp.location}
+                          </div>
+                        )}
                       </div>
                       
                       <div style={{
@@ -895,30 +915,33 @@ const Portfolio = () => {
                       marginBottom: '24px',
                       fontSize: '1.1rem',
                     }}>
-                      {exp.description}
+                      {exp.summary}
                     </p>
 
-                    <div style={{
-                      display: 'flex',
-                      flexWrap: 'wrap',
-                      gap: '12px',
-                    }}>
-                      {exp.highlights.map((highlight, i) => (
-                        <span
-                          key={i}
-                          style={{
-                            background: 'rgba(0, 200, 83, 0.1)',
-                            color: colors.primary,
-                            padding: '6px 12px',
-                            borderRadius: '20px',
-                            fontSize: '0.9rem',
-                            fontWeight: '500',
-                          }}
-                        >
-                          {highlight}
-                        </span>
-                      ))}
-                    </div>
+                    {exp.tags && exp.tags.length > 0 && (
+                      <div style={{
+                        display: 'flex',
+                        flexWrap: 'wrap',
+                        gap: '12px',
+                        marginTop: '8px',
+                      }}>
+                        {exp.tags.map((tag, i) => (
+                          <span
+                            key={i}
+                            style={{
+                              background: 'rgba(0, 200, 83, 0.1)',
+                              color: colors.primary,
+                              padding: '6px 12px',
+                              borderRadius: '20px',
+                              fontSize: '0.9rem',
+                              fontWeight: '500',
+                            }}
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </div>
               </Card>
